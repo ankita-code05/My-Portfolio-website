@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar {
+  background-color: rgb(177, 171, 171);
+  height: 100vh;
+  font-family: 'Source Code Pro', monospace;
+  font-weight: bold;
+  transition: transform 0.3s ease-in;
+}
+
+.main {
+  background-color: white;
+  width: 90vw;
+}
+
+.sidebar nav {
+  padding: 34px;
+}
+
+.sidebar nav ul li a{
+  text-decoration: none;
+  color: black;
+}
+.container {
+  display: flex;
+}
+
+ul li {
+  list-style: none;
+  padding: 25px 0;
+  font-size: 18px;
+}
+.infocontainer {
+  background-color:white;
+  height: 60vh;
+  width: 65vw;
+  margin: auto;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.devinfo {
+  display: flex;
+   justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+}
+.hello{
+  font-size: 30px;
+}
+
+.name{
+  font-size: 30px;
+  font-weight: bold;
+  
+}
+
+.about{
+  font-size: 20px;
+}
+.introduction{
+  padding: 4px;
+}
+
+.btn button{
+  margin-top: 34px;
+  padding:4px 9px;
+  font-size: 15px;
+  border-radius: 20px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  
+}
+.btn button:hover{
+  background-color: white;
+  color: black;
+
+  
+  
+}
+.devpic img {
+  height: 60vh;
+  width: 381px;
+}
+.contactform h1{
+  padding: 12px 0;
+}
+.contactform{
+    padding-top: 65px;
+    padding-left: 30px;
+
+}
+
+.contactform form div{
+    padding: 8px ;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    font-family: 'Source Code Pro', monospace;
+   
+}
+.contactform form div input{
+  
+  border-radius: 4px;
+  margin: 6px 0;
+  padding: 3px;
+}
+.contactform form{
+  margin: 0 40px;
+}
+.contactform button{
+  padding: 4px;
+  margin-left: 20px;
+  color: white;
+  background-color: black;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 14px;
+
+}
+ button:hover{
+  background-color: whitek;
+  color: black;
+ 
+  
+}
+
+
+/* Blog page*/
+
+
+.blogcontainer {
+  padding-top: 50px;
+  padding-left: 30px;
+  font-family: 'Source Code Pro', monospace;
+  
+}
+.blogcontainer .blogitem{
+  margin-top: 10px;
+}
+
+.blogcontainer p{
+  color: rgb(167, 167, 167);
+}
+
+
+.intro h1{
+  padding-top: 70px;
+  padding-left: 30px;
+ 
+}
+.introcontainer{
+  width: 60vw;
+  height: 8vh;
+  
+}
+
+.self{
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.self p{
+  font-size: 18px;
+  margin-top: 40px;
+  font-family: 'Source Code Pro', monospace;
+ 
+
+}
+.social ul{
+  display: flex;
+  margin-top: 110px;
+  
+}
+.social li{
+  padding-left: 9px;
+  list-style: none;
+  font-size: 25px;
+  
+}
+.social ul li a{
+  text-decoration: none;
+  color: black;
+  
+}
+.sidebargo{
+  transform: translate(-443px,0px);
+    position: absolute;
+}
+
+.hamburger{
+  position: absolute;
+  cursor: pointer;
+  top: 10px;
+  left: 10px;
+}
+.ham{
+  margin-top: 2px;
+}
+.cross{
+  margin-left: 110px;
+  margin-top: 2px;
+}
+
+@media (max-width: 750px){
+   .devpic{
+    display: none;
+   }
+ 
+  }
+  @media (max-width: 650px) {
+    .me{
+      display: none;
+    }
+    .self{
+      margin-left: 15px;
+      width: fit-content;
+    }
+    .social{
+      align-items: center;
+    }
+  } 

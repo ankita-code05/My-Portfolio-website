@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="sidebar">
+        <nav>
+          <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="intro.html"> Intro</a></li>
+            <li><a href="cv.html">CV</a></li>
+            <li><a href="Blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="main">
+        <div class="hamburger">
+          <img class="ham" src="ankiimg/ham.png" alt="" width="23px" />
+          <img class="cross" src="ankiimg/cross.png" alt="" width="23px" />
+        </div>
+        <div class="contactform">
+          <h1>Contact Me For Work/General Enquiries</h1>
+          <form>
+            <div class="mb-3">
+              <label for="clientname" class="form-label"
+                >Name<span style="color: red">*</span></label
+              >
+              <input type="text" class="form-control" id="exampleInputname" />
+            </div>
+            <div class="mb-3">
+              <label for="clientemail" class="form-label"
+                >Email address<span style="color: red">*</span></label
+              >
+              <input
+                type="email"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label"
+                >Phone number<span style="color: red">*</span></label
+              >
+              <input
+                type="password"
+                class="form-control"
+                id="exampleInputPassword1"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="clientname" class="form-label"
+                >Location<span style="color: red">*</span></label
+              >
+              <input type="text" class="form-control" id="exampleInputname" />
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label"
+                >Enquiry<span style="color: red">*</span></label
+              >
+              <input
+                type="text"
+                class="form-control"
+                id="exampleInputPassword1"
+              />
+            </div>
+
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="working.js"></script>
+  </body>
+</html>
